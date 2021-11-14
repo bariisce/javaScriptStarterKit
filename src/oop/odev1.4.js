@@ -1,0 +1,2 @@
+let sayi
+let i

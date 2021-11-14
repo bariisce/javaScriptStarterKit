@@ -1,10 +1,7 @@
-let sayi
-let i
-
-for (sayi = 1; sayi < 1000; sayi++) 
+for (let sayi = 1; sayi < 1000; sayi++) 
 {
     let sayiToplam=0
-    for (i = 1; i < sayi; i++) 
+    for (let i = 1; i < sayi; i++) 
     {
         if(sayi%i==0)
         {
