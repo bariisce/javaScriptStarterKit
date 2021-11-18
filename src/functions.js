@@ -63,9 +63,9 @@ let numbers = [10,20,30,600]
 console.log(Math.max(...numbers))
 
 //destruction
-let [icAnadolu,marmara,[akdenizdekiSehirler]]=[
+let [icAnadolu,marmara,[akdenizdekiSehirler,marmaradakiSehirler]]=[
     {name:"İç Anadolu" , populatoion:"10M"},
-    {name:"İç Anadolu" , populatoion:"10M"},
+    {name:"Marmara" , populatoion:"15M"},
     [
         ["Adana","Mersin"],
         ["Balıkesir","Çanakkale"]
@@ -77,6 +77,7 @@ console.log(marmara)
 console.log(icAnadolu.name)
 console.log(marmara.populatoion)
 console.log(akdenizdekiSehirler)
+console.log(marmaradakiSehirler)
 
 let newProductName,newUnitPrice,newQuantity
 ({
@@ -87,3 +88,26 @@ let newProductName,newUnitPrice,newQuantity
 console.log(newProductName)
 console.log(newUnitPrice)
 console.log(newQuantity)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function pay(productInstalment) 
+{
+    console.log("was paid : "+productInstalment)    
+}
+
+pay("War and Peace")
+pay("Iphone S11")
